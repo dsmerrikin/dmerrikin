@@ -14,16 +14,18 @@ const Hero = () => {
                 Hey There 👋 I am
                 <span className='font-bold text-black text-3xl sm:text-3xl md:text-[45px] leading-tight sm:leading-tight md:leading-[50px] block mt-1'>
                   {" "}
-                  Daniel Jack{" "}
+                  Derek Merrikin{" "}
                 </span>
               </h1>
               <h2 className='font-medium text-body-color text-lg md:text-xl mb-5'>
-                Professional
-                <span className='text-black'>Graphic Designer </span>
+                Senior
+                <span className='text-black'> Software Engineer </span> |
+                Aspiring <span className='text-black'>Chef</span>
               </h2>
+
               <p className='max-w-[470px] font-medium text-body-color text-base leading-relaxed mb-11'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                interdum consequat convallis.
+                Decade-Long Software Expert Empowering Teams with Inspiring
+                Leadership and Cutting-Edge Technologies
               </p>
               <div className='flex items-center'>
                 <a className='text-base font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'>
@@ -38,26 +40,13 @@ const Hero = () => {
           <div className='w-full lg:w-1/2 self-end px-4'>
             <div className='relative mt-12 lg:mt-0 z-10 2xl:absolute 2xl:bottom-0 2xl:right-40'>
               <Image
-                src='/images/hero/hero-image.png'
+                src='/images/hero/hero-image-derrick.png'
                 alt='image'
                 className='max-w-full mx-auto'
-                fill={true}
+                width={500}
+                height={500}
+                sizes='(max-width: 767px) 100vw, (max-width: 991px) 480px, 600px'
               />
-              <span className='absolute lefter-[-8px] bottom-2 -z-1'>
-                <svg
-                  width='40'
-                  height='38'
-                  viewBox='0 0 40 38'
-                  fill='none'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path
-                    d='M9.31451 3.18282L32.4926 6.24789C36.3084 6.75249 38.147 11.1986 35.8021 14.2508L21.5587 32.7911C19.2138 35.8434 14.444 35.2126 12.9731 31.6558L4.03852 10.0504C2.56762 6.49355 5.49873 2.67822 9.31451 3.18282Z'
-                    stroke='#4A6CF7'
-                    strokeWidth='6'
-                  />
-                </svg>
-              </span>
             </div>
           </div>
         </div>
@@ -90,11 +79,11 @@ const Hero = () => {
                 <stop stopColor='white' />
                 <stop
                   offset='0.569'
-                  stopColor='#F0F4FD'
+                  stopColor='text-body-color'
                 />
                 <stop
                   offset='0.993'
-                  stopColor='#D9E0F0'
+                  stopColor='text-body-color'
                 />
               </radialGradient>
             </defs>

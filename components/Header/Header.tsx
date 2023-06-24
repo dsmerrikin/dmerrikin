@@ -14,8 +14,8 @@ function Header() {
                 src='/images/logo/logo.svg'
                 alt='logo'
                 className='w-full'
-                height={36}
-                width={165}
+                height={175}
+                width={200}
               />
             </a>
           </div>

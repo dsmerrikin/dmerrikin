@@ -11,13 +11,18 @@ const About = () => {
               {" "}
               ABOUT ME{" "}
             </span>
-            <h2 className='max-w-[400px] font-bold text-black text-3xl sm:text-4xl md:text-[45px] leading-tight sm:leading-tight md:leading-tight mb-5'>
-              Better design, better experience
+            <h2 className='max-w-[500px] font-bold text-black text-3xl sm:text-4xl md:text-[45px] leading-tight sm:leading-tight md:leading-tight mb-5'>
+              Better development, better experience
             </h2>
             <p className='max-w-[570px] font-medium text-base text-body-color'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              dui ligula, malesuada vel convallis in, tincidunt ut mi Vestibulum
-              sit amet.
+              Throughout my decade-long career, I&apos;ve focused on expanding
+              my expertise in software technologies to bring value to
+              organizations as a collaborative team player. With an enthusiastic
+              and positive attitude, I motivate my colleagues by showcasing my
+              coding skills, adhering to best practices, and embracing
+              constructive criticism. My unwavering desire for knowledge fuels
+              my growth and ongoing education. Currently, I&apos;m actively
+              involved in ReactJS and NextJS development.
             </p>
           </div>
           <div className='w-full lg:w-1/2 xl:w-5/12 px-4'>
@@ -25,10 +30,11 @@ const About = () => {
               Connect With Me
             </h3>
             <p className='font-medium text-base text-body-color mb-10'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              dui ligula, malesuada vel convallis in, tincidunt ut mi.
-              Vestibulum sit amet urna placerat, tempor soloa demanium testi lor
-              Aliq lorem vitae semper tempor.
+              I&apos;m always open to expanding my professional network and
+              connecting with like-minded individuals. Whether you want to
+              discuss software technologies, collaborate on projects, or explore
+              new opportunities, I&apos;m just a message away. Let&apos;s
+              connect and foster meaningful connections in the tech community!
             </p>
             <div className='flex items-center'>
               <a
