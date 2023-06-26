@@ -63,10 +63,18 @@ function Header() {
                   </li>
                   <li className='relative group'>
                     <a
-                      href='#pricing'
+                      href='#portfolio'
                       className='menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12'
                     >
-                      Pricing
+                      Recent Works
+                    </a>
+                  </li>
+                  <li className='relative group'>
+                    <a
+                      href='#testimonials'
+                      className='menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12'
+                    >
+                      Testimonials
                     </a>
                   </li>
                   <li className='relative group'>
@@ -76,35 +84,6 @@ function Header() {
                     >
                       Contact
                     </a>
-                  </li>
-                  <li className='relative group submenu-item'>
-                    <a className='text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:translate-y-[-50%] after:mt-[-2px]'>
-                      Pages
-                    </a>
-                    <div className='submenu hidden relative lg:absolute w-[250px] top-full lg:top-[110%] left-0 rounded-sm lg:shadow-lg p-4 lg:block lg:opacity-0 lg:invisible group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full bg-white transition-[top] duration-300'>
-                      <a
-                        href='portfolio-details.html'
-                        className='block text-sm text-black rounded hover:text-primary py-[10px] px-4'
-                      >
-                        {" "}
-                        Portfolio Details Page{" "}
-                      </a>
-
-                      <a
-                        href='blog-grids.html'
-                        className='block text-sm text-black rounded hover:text-primary py-[10px] px-4'
-                      >
-                        {" "}
-                        Blog Grids Page{" "}
-                      </a>
-                      <a
-                        href='blog-details.html'
-                        className='block text-sm text-black rounded hover:text-primary py-[10px] px-4'
-                      >
-                        {" "}
-                        Blog Details Page{" "}
-                      </a>
-                    </div>
                   </li>
                 </ul>
               </nav>

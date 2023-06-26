@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <section className='mt-[-160px]'>
+    <section className='mt-[-50px]'>
       <div className='container'>
         <div className='bg-primary rounded-md relative overflow-hidden z-10 text-center py-[70px]'>
           <div className='max-w-[770px] mx-auto px-6'>

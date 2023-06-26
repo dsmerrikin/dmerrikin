@@ -1,4 +1,22 @@
+import { useEffect, useState } from "react";
+import EducationItem from "./EducationItem/EducationItem";
+
 const Education = () => {
+  const [items, setItems] = useState([]);
+  useEffect(() => {
+    const fetchItems = async () => {
+      try {
+        const response = await fetch("/api/educationItems"); // Fetch from the API endpoint
+        const data = await response.json(); // Parse the response as JSON
+        setItems(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchItems();
+  }, []);
+
   return (
     <section
       id='education'
@@ -27,90 +45,20 @@ const Education = () => {
             <span className='absolute top-0 block left-2 lg:left-1/2 w-[1px] h-full bg-[#d7dfff]'></span>
 
             <div className='flex flex-wrap -mx-4'>
-              <div className='w-full lg:w-1/2 px-4'>
-                <div className='lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12'>
-                  <span className='absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary'></span>
-                  <h3 className='font-semibold text-xl text-black mb-1'>
-                    UI/UX Designer
-                  </h3>
-                  <p className='font-semibold text-base text-body-color mb-3'>
-                    Google INC | New York
-                  </p>
-                  <span className='inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5'>
-                    2011 - 2013
-                  </span>
-                  <p className='font-medium text-base text-body-color'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusm tempor incididunt ut labore et dolore magna
-                    aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                    elit.
-                  </p>
-                </div>
-              </div>
-              <div className='w-full lg:w-1/2 px-4'></div>
-              <div className='w-full lg:w-1/2 px-4'></div>
-              <div className='w-full lg:w-1/2 px-4'>
-                <div className='lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12'>
-                  <span className='absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary'></span>
-                  <h3 className='font-semibold text-xl text-black mb-1'>
-                    Specialization Course
-                  </h3>
-                  <p className='font-semibold text-base text-body-color mb-3'>
-                    Stanford University | New York
-                  </p>
-                  <span className='inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5'>
-                    2017 - 2018
-                  </span>
-                  <p className='font-medium text-base text-body-color'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusm tempor incididunt ut labore et dolore magna
-                    aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                    elit.
-                  </p>
-                </div>
-              </div>
-              <div className='w-full lg:w-1/2 px-4'>
-                <div className='lg:max-w-[428px] xl:max-w-[490px] w-full ml-auto pl-8 sm:pl-11 lg:pl-0 lg:pr-0 lg:mr-5 lg:text-right relative pb-12'>
-                  <span className='absolute top-1 left-0 lg:left-auto lg:-right-11 w-4 h-4 rounded-full bg-white border-4 border-primary'></span>
-                  <h3 className='font-semibold text-xl text-black mb-1'>
-                    Web Designer
-                  </h3>
-                  <p className='font-semibold text-base text-body-color mb-3'>
-                    Facebook INC | New York
-                  </p>
-                  <span className='inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5'>
-                    2014 - 2016
-                  </span>
-                  <p className='font-medium text-base text-body-color'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusm tempor incididunt ut labore et dolore magna
-                    aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                    elit.
-                  </p>
-                </div>
-              </div>
-              <div className='w-full lg:w-1/2 px-4'></div>
-              <div className='w-full lg:w-1/2 px-4'></div>
-              <div className='w-full lg:w-1/2 px-4'>
-                <div className='lg:max-w-[428px] xl:max-w-[490px] w-full pl-8 sm:pl-11 lg:pl-0 lg:ml-5 relative pb-12'>
-                  <span className='absolute top-1 left-0 lg:-left-11 w-4 h-4 rounded-full bg-white border-4 border-primary'></span>
-                  <h3 className='font-semibold text-xl text-black mb-1'>
-                    Bachelor Degree
-                  </h3>
-                  <p className='font-semibold text-base text-body-color mb-3'>
-                    Stanford University | New York
-                  </p>
-                  <span className='inline-flex items-center justify-center py-2 px-4 rounded-full bg-primary text-white text-xs font-semibold mb-5'>
-                    2019 - 2021
-                  </span>
-                  <p className='font-medium text-base text-body-color'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusm tempor incididunt ut labore et dolore magna
-                    aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                    elit.
-                  </p>
-                </div>
-              </div>
+              {items.length === 0 ? (
+                <div>No items to display</div>
+              ) : (
+                items.map((item) => (
+                  <EducationItem
+                    key={item.id}
+                    id={item.id}
+                    company={item.company}
+                    title={item.title}
+                    date={item.date}
+                    summary={item.summary}
+                  />
+                ))
+              )}
             </div>
           </div>
         </div>

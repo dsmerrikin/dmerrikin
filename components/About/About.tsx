@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section
-      id='About'
+      id='about'
       className='pt-[145px] pb-[120px] relative z-10'
     >
       <div className='container'>

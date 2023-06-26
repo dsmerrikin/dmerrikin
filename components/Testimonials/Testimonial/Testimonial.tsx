@@ -1,27 +1,28 @@
 import Image from "next/image";
+import { FC } from "react";
+import { TestimonialInterface } from "./TestimonialInterface";
 
-const Testimonial = () => {
+const Testimonial: FC<TestimonialInterface> = ({
+  id,
+  company,
+  headshotUrl,
+  title,
+  name,
+  summary,
+}) => {
   return (
-    <div className='w-full lg:w-1/2 px-4'>
+    <div
+      className='w-full lg:w-1/2 px-4'
+      key={id}
+    >
       <div className='bg-white rounded-xl relative overflow-hidden px-7 sm:px-10 p-10 shadow-testimonial mb-10'>
-        <div className='mb-5'>
-          <Image
-            src='/images/testimonial/tailgrid.svg'
-            alt='tailgrids'
-            className='h-7'
-            height={96}
-            width={333}
-          />
-        </div>
-        <p className='font-medium text-lg text-body-color mb-8'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat
-          a libero.
+        <p className='font-medium text-lg text-body-color mb-8 whitespace-pre-line'>
+          {summary}
         </p>
         <div className='flex items-center'>
           <div className='max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3'>
             <Image
-              src='/images/testimonial/image-2.png'
+              src={headshotUrl}
               alt='image'
               className='w-full'
               height={120}
@@ -29,10 +30,10 @@ const Testimonial = () => {
             />
           </div>
           <div>
-            <h3 className='font-semibold text-base text-black mb-1'>
-              Devid Sailio
-            </h3>
-            <p className='text-sm text-body-color'>Founder @ TailGrids</p>
+            <h3 className='font-semibold text-base text-black mb-1'>{name}</h3>
+            <p className='text-sm text-body-color'>
+              {title} @ {company}
+            </p>
           </div>
         </div>
         <div className='absolute bottom-8 right-8'>

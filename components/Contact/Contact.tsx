@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section
-      id='Contact'
+      id='contact'
       className='py-[120px]'
     >
       <div className='container'>

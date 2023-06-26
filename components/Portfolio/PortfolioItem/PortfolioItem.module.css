@@ -1,0 +1,20 @@
+.portfolioItemImgParent {
+  aspect-ratio: 4/3;
+  width: 225px;
+  height: 300px;
+}
+
+.portfolioItemImg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioItemImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
