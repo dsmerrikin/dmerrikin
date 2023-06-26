@@ -32,6 +32,7 @@ const Footer = () => {
                   title={item.title}
                   icon={item.icon}
                   url={item.url}
+                  className='text-white hover:text-primary transition-colors duration-200'
                 />
               ))
             )}

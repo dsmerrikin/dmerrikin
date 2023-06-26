@@ -5,4 +5,5 @@ export interface SocialInterface {
   title: string;
   icon: IconProp;
   url: string;
+  className: string;
 }

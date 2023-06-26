@@ -1,0 +1,4 @@
+.aboutSocialLinks > a,
+.aboutSocialLinks svg {
+  color: theme("colors.primary");
+}

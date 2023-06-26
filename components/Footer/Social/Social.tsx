@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Social: FC<SocialInterface> = ({ id, title, icon, url }) => {
+const Social: FC<SocialInterface> = ({ id, title, icon, url, className }) => {
   const getIcon = (iconName) => {
     switch (iconName) {
       case "fa-facebook":
@@ -35,7 +35,7 @@ const Social: FC<SocialInterface> = ({ id, title, icon, url }) => {
     >
       <FontAwesomeIcon
         icon={getIcon(icon)}
-        style={{ color: "#ffffff" }}
+        className={className}
         aria-description={title}
       />
     </a>

@@ -40,7 +40,7 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
               <FontAwesomeIcon
                 icon={faRightToBracket}
                 style={{ color: "#ffffff" }}
-                font-size={"1rem"}
+                fontSize={"1rem"}
               />
             </a>
           </div>
