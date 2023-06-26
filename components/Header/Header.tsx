@@ -90,7 +90,8 @@ function Header() {
             </div>
             <div className='sm:flex justify-end hidden pr-16 lg:pr-0'>
               <a
-                href='#contact'
+                href='/docs/derek-merrikin-resume.pdf'
+                target='_blank'
                 className='text-base font-bold text-white bg-primary rounded-full py-3 px-8 md:px-9 lg:px-8 xl:px-9 hover:shadow-signUp hover:bg-opacity-90 transition ease-in-out duration-300'
               >
                 Download CV
