@@ -1,8 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 function Header() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
   return (
     <>
       <Head>
@@ -49,6 +56,7 @@ function Header() {
                   name='navbarToggler'
                   aria-label='navbarToggler'
                   className='block absolute right-4 top-1/2 translate-y-[-50%] lg:hidden focus:ring-2 ring-primary px-3 py-[6px] rounded-lg'
+                  onClick={toggleNav}
                 >
                   <span className='relative w-[30px] h-[2px] my-[6px] block bg-dark'></span>
                   <span className='relative w-[30px] h-[2px] my-[6px] block bg-dark'></span>
@@ -56,7 +64,9 @@ function Header() {
                 </button>
                 <nav
                   id='navbarCollapse'
-                  className='absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-white lg:bg-transparent shadow-lg rounded-lg max-w-[250px] w-full lg:max-w-full lg:w-full right-4 top-full hidden lg:block lg:static lg:shadow-none'
+                  className={`absolute py-5 lg:py-0 lg:px-4 xl:px-6 bg-white lg:bg-transparent shadow-lg rounded-lg max-w-[250px] w-full lg:max-w-full lg:w-full right-4 top-3/4 ${
+                    isNavOpen ? "block" : "hidden"
+                  } lg:block lg:static lg:shadow-none`}
                 >
                   <ul className='blcok lg:flex'>
                     <li className='relative group'>
