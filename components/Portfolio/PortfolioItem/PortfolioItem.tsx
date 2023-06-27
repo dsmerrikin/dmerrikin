@@ -4,6 +4,7 @@ import { FC } from "react";
 import styles from "./PortfolioItem.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const PortfolioItem: FC<PortfolioItemInterface> = ({
   id,
@@ -32,7 +33,7 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
             />
           </div>
           <div className='absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition'>
-            <a
+            <Link
               href={url}
               target='_blank'
               className='glightbox w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full'
@@ -42,18 +43,18 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
                 style={{ color: "#ffffff" }}
                 fontSize={"1rem"}
               />
-            </a>
+            </Link>
           </div>
         </div>
 
         <h3 className='mt-6'>
-          <a
+          <Link
             href={url}
             target='_blank'
-            className='font-semibold text-black hover:text-primary text-xl inline-block mb-3'
+            className='font-semibold text-primary hover:text-white text-xl inline-block mb-3'
           >
             {title}
-          </a>
+          </Link>
         </h3>
         <p className='font-medium text-base text-white whitespace-pre-line'>
           {description}

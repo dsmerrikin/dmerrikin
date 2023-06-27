@@ -33,8 +33,14 @@ const Services = () => {
                   My Services
                 </h2>
                 <p className='font-medium text-lg text-body-color'>
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  With a focus on delivering exceptional results, I offer a
+                  comprehensive range of services tailored to meet your specific
+                  needs. From concept development and design to implementation
+                  and optimization, my expertise spans across various areas.
+                  Whether you&apos;re looking for web development, UI/UX design,
+                  or digital marketing strategies, I am dedicated to providing
+                  innovative solutions that drive growth and success for your
+                  business.
                 </p>
               </div>
             </div>

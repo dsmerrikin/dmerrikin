@@ -34,8 +34,11 @@ const Education = () => {
                   My Resume
                 </h2>
                 <p className='font-medium text-lg text-body-color'>
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  From hands-on projects to collaborative team environments, I
+                  have honed my abilities in problem-solving, critical thinking,
+                  and effective communication. With a passion for learning and a
+                  drive for excellence, I am constantly seeking new challenges
+                  and opportunities to grow both personally and professionally.
                 </p>
               </div>
             </div>

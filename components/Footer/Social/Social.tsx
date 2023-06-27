@@ -7,6 +7,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 const Social: FC<SocialInterface> = ({ id, title, icon, url, className }) => {
   const getIcon = (iconName) => {
@@ -25,7 +26,7 @@ const Social: FC<SocialInterface> = ({ id, title, icon, url, className }) => {
   };
 
   return (
-    <a
+    <Link
       className='flex items-center justify-center w-8 h-8 founded-full mx-2 text-3xl text-body-color hover:text-primary'
       key={id}
       aria-label='social-link'
@@ -38,7 +39,7 @@ const Social: FC<SocialInterface> = ({ id, title, icon, url, className }) => {
         className={className}
         aria-description={title}
       />
-    </a>
+    </Link>
   );
 };
 

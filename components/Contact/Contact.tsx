@@ -60,8 +60,13 @@ const Contact = () => {
                 Have an Project in Mind?
               </h2>
               <p className='font-medium text-lg text-body-color'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                I would love to hear from you and discuss how I can help you
+                achieve your goals. Whether you have a question, want to
+                collaborate on a project, or simply want to say hello, feel free
+                to reach out using the contact form below. I am committed to
+                providing prompt and personalized responses to ensure a seamless
+                communication experience. Let&apos;s connect and turn your ideas
+                into reality!
               </p>
             </div>
           </div>

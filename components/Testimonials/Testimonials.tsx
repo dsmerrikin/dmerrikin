@@ -21,7 +21,7 @@ const Testimonials = () => {
   return (
     <section
       id='testimonials'
-      className='pt-[120px] pb-20'
+      className='pt-[120px] pb-20 bg-[#f8f9ff]'
     >
       <div className='container'>
         <div className='flex flex-wrap mx-[-16px]'>

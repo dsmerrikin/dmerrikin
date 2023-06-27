@@ -17,27 +17,6 @@ import BackToTop from "../components/BackToTop/BackToTop";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>DMerrikin</title>
-        <meta
-          name='description'
-          content='Software Engineer | Honey Badger'
-        />
-        <link
-          rel='icon'
-          href='/favicon.ico'
-        />
-        <meta charSet='UTF-8' />
-        <meta
-          httpEquiv='X-UA-Compatible'
-          content='IE=edge'
-        />
-        <meta
-          name='viewport'
-          content='width=device-width, initial-scale=1.0'
-        />
-      </Head>
-
       <Header />
       <Hero />
       <About />
@@ -46,7 +25,6 @@ const Home = () => {
       <CTA />
       <Education />
       <Testimonials />
-      <Blog />
       <Contact />
       <Footer />
       <BackToTop />

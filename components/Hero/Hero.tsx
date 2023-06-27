@@ -11,7 +11,7 @@ const Hero = () => {
           <div className='w-full lg:w-1/2 self-center px-4'>
             <div>
               <h1 className='text-base font-semibold text-primary mb-3'>
-                Hey There 👋 I am
+                Hey there 👋 I am
                 <span className='font-bold text-black text-3xl sm:text-3xl md:text-[45px] leading-tight sm:leading-tight md:leading-[50px] block mt-1'>
                   {" "}
                   Derek Merrikin{" "}
@@ -28,10 +28,16 @@ const Hero = () => {
                 Leadership and Cutting-Edge Technologies
               </p>
               <div className='flex items-center'>
-                <a className='text-base font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'>
+                <a
+                  href='#contact'
+                  className='text-base font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
+                >
                   Contact Me
                 </a>
-                <a className='text-base font-semibold text-white bg-black py-3 px-8 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'>
+                <a
+                  href='#services'
+                  className='text-base font-semibold text-white bg-black py-3 px-8 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
+                >
                   Learn More
                 </a>
               </div>

@@ -16,8 +16,12 @@ const Blog = () => {
                 From The Blog
               </h2>
               <p className='font-medium text-lg text-body-color'>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Welcome to my blog, where I share insights, tips, and
+                experiences on various topics. Whether you&apos;re looking for
+                inspiration, practical advice, or thought-provoking discussions,
+                my blog is the perfect place to expand your knowledge and stay
+                up-to-date with the latest trends. So grab a cup of coffee and
+                enjoy exploring my thoughts!
               </p>
             </div>
           </div>
