@@ -35,7 +35,10 @@ const BackToTop = () => {
           className='items-center text-center leading-10 justify-center bg-primary text-white w-10 h-10 rounded-md fixed bottom-8 right-8 left-auto z-[999] hover:shadow-signUp transition duration-300 back-to-top'
           onClick={scrollToTop}
         >
-          <FontAwesomeIcon icon={faTurnUp} />
+          <FontAwesomeIcon
+            icon={faTurnUp}
+            className='sm:text-sm text-base'
+          />
         </a>
       )}
     </>
