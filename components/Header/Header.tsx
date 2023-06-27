@@ -16,7 +16,7 @@ function Header() {
         <title>DMerrikin</title>
         <meta
           name='description'
-          content='Software Engineer | Honey Badger'
+          content='Software Engineer | Aspiring Chef'
         />
         <link
           rel='icon'
@@ -30,6 +30,54 @@ function Header() {
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'
+        />
+        <meta
+          name='title'
+          content='DMerrikin.com'
+        />
+        <meta
+          name='description'
+          content='Software Engineer | Aspiring Chef'
+        />
+        <meta
+          property='og:type'
+          content='website'
+        />
+        <meta
+          property='og:url'
+          content='https://dmerrikin.com'
+        />
+        <meta
+          property='og:title'
+          content='DMerrikin.com'
+        />
+        <meta
+          property='og:description'
+          content='Software Engineer | Aspiring Chef'
+        />
+        <meta
+          property='og:image'
+          content='/images/hero/dmerrikin.jpg'
+        />
+        <meta
+          property='twitter:card'
+          content='summary_large_image'
+        />
+        <meta
+          property='twitter:url'
+          content='https://dmerrikin.com'
+        />
+        <meta
+          property='twitter:title'
+          content='DMerrikin.com'
+        />
+        <meta
+          property='twitter:description'
+          content='Software Engineer | Aspiring Chef'
+        />
+        <meta
+          property='twitter:image'
+          content='/images/hero/dmerrikin.jpg'
         />
       </Head>
       <header className='header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center transition'>
