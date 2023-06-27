@@ -59,49 +59,14 @@ const Hero = () => {
       </div>
 
       <div>
-        <span className='absolute left-0 top-32 -z-1'>
-          <svg
-            width='48'
-            height='95'
-            viewBox='0 0 48 95'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <circle
-              cx='0.5'
-              cy='47.5'
-              r='47.5'
-              fill='url(#paint0_radial_6:121)'
-            />
-            <defs>
-              <radialGradient
-                id='paint0_radial_6:121'
-                cx='0'
-                cy='0'
-                r='1'
-                gradientUnits='userSpaceOnUse'
-                gradientTransform='translate(0.5) rotate(90) scale(95)'
-              >
-                <stop stopColor='white' />
-                <stop
-                  offset='0.569'
-                  stopColor='text-body-color'
-                />
-                <stop
-                  offset='0.993'
-                  stopColor='text-body-color'
-                />
-              </radialGradient>
-            </defs>
-          </svg>
-        </span>
         <span className='absolute right-0 bottom-0 -z-1'>
           <svg
             width='491'
-            height='490'
+            height='350'
             viewBox='0 0 491 490'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
+            className='sm:h-9 md:h-[425px] lg:h-[490px]'
           >
             <circle
               cx='356.5'

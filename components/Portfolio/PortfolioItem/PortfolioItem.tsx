@@ -16,7 +16,7 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
 }) => {
   return (
     <div
-      className='w-1/6 md:w-1/4 px-4 item web app'
+      className='w-full md:w-1/4 px-4 item web app'
       key={id}
       data-category={category}
     >
