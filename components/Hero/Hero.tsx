@@ -30,13 +30,13 @@ const Hero = () => {
               <div className='flex items-center'>
                 <a
                   href='#contact'
-                  className='text-base font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
+                  className='text-base xs:text-center font-semibold text-white bg-primary py-3 px-8 mr-4 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
                 >
                   Contact Me
                 </a>
                 <a
                   href='#services'
-                  className='text-base font-semibold text-white bg-black py-3 px-8 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
+                  className='text-base xs:text-center font-semibold text-white bg-black py-3 px-8 hover:shadow-signUp hover:bg-opacity-90 rounded-full transition duration-300 ease-in-out'
                 >
                   Learn More
                 </a>
