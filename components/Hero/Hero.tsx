@@ -66,7 +66,7 @@ const Hero = () => {
             viewBox='0 0 491 490'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
-            className='sm:h-9 md:h-[425px] lg:h-[490px]'
+            className='xs:h-[300px] sm:h-9 md:h-[425px] lg:h-[490px]'
           >
             <circle
               cx='356.5'

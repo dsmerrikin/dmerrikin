@@ -37,7 +37,7 @@ const BackToTop = () => {
         >
           <FontAwesomeIcon
             icon={faTurnUp}
-            className='sm:text-sm text-base'
+            className='xs:text-2xl sm:text-sm text-base'
           />
         </a>
       )}

@@ -20,7 +20,7 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
       key={id}
       data-category={category}
     >
-      <div className='mb-12'>
+      <div className='mb-12 xs:text-center sm:text-left'>
         <div
           className={`${styles.portfolioItemImgParent} relative group mb-4 overflow-hidden shadow-service rounded-md`}
         >

@@ -25,15 +25,15 @@ const About = () => {
     >
       <div className='container'>
         <div className='flex flex-wrap mx-[-16px]'>
-          <div className='w-full lg:w-1/2 xl:w-7/12 px-4 mb-8 lg:mb-0'>
+          <div className='w-full lg:w-1/2 xl:w-7/12 px-4 mb-8 lg:mb-0 xs:text-center sm:text-left'>
             <span className='font-bold text-primary text-lg md:text-xl mb-3'>
               {" "}
               ABOUT ME{" "}
             </span>
-            <h2 className='max-w-[500px] font-bold text-black text-3xl sm:text-4xl md:text-[45px] leading-tight sm:leading-tight md:leading-tight mb-5'>
+            <h2 className='max-w-[500px] sm:max-w-full font-bold text-black text-3xl sm:text-4xl md:text-[45px] leading-tight sm:leading-tight md:leading-tight mb-5'>
               Better development, better experience
             </h2>
-            <p className='max-w-[570px] font-medium text-base text-body-color'>
+            <p className='max-w-[570px] sm:max-w-full font-medium text-base text-body-color'>
               Throughout my decade-long career, I&apos;ve focused on expanding
               my expertise in software technologies to bring value to
               organizations as a collaborative team player. With an enthusiastic

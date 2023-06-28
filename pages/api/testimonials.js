@@ -33,10 +33,10 @@ export default function handler(req, res) {
     },
     {
       id: 4,
-      company: "",
+      company: "DEPT®",
       headshotUrl: "/images/testimonial/dave.jpeg",
       title: "Digital Agency Partner",
-      name: "Brandon Aaskov",
+      name: "Dave Witting",
       summary: `Derek has been a kind and caring member of the DEPT® team. Derek has a strong work ethic, solid command of engineering best practices, and a willingness to help out in any way that he can. Derek would be an excellent addition to any digital product team.`,
     },
   ]);

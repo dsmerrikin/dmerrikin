@@ -21,6 +21,8 @@ module.exports = {
       "body-color": "#959CB1",
     },
     screens: {
+      xs: "320px",
+      // => @media (min-width: 320px) { ... }
       sm: "540px",
       // => @media (min-width: 576px) { ... }
 
