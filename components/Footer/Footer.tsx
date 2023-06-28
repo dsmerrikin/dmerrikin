@@ -6,8 +6,8 @@ const Footer = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const response = await fetch("/api/socials"); // Fetch from the API endpoint
-        const data = await response.json(); // Parse the response as JSON
+        const response = await fetch("/api/socials");
+        const data = await response.json();
         setItems(data);
       } catch (error) {
         console.error("Error fetching data:", error);

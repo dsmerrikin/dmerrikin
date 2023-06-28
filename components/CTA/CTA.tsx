@@ -17,7 +17,6 @@ const CTA = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Make an API request to send the form data
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -28,14 +27,11 @@ const CTA = () => {
       });
 
       if (response.ok) {
-        // Handle successful submission
-        setIsEmailSent(true); // Set the email sent status
+        setIsEmailSent(true);
       } else {
-        // Handle submission error
         console.error("Error sending email.");
       }
     } catch (error) {
-      // Handle any network or server errors
       console.error("Error sending email:", error);
     }
   };

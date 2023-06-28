@@ -9,8 +9,8 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const response = await fetch(`/api/${selectedCategory}/portfolioItems`); // Fetch from the API endpoint
-        const data = await response.json(); // Parse the response as JSON
+        const response = await fetch(`/api/${selectedCategory}/portfolioItems`);
+        const data = await response.json();
         setItems(data.items);
         setCategories(data.categories);
       } catch (error) {

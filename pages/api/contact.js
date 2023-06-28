@@ -10,7 +10,6 @@ export default async function handler(req, res) {
 
   const { name, email, company, phone, message } = req.body;
 
-  // Create a transporter to send the email
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
@@ -22,7 +21,6 @@ export default async function handler(req, res) {
   });
 
   try {
-    // Send the email
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,

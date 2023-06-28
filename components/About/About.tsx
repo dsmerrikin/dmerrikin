@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import Social from "../Footer/Social/Social";
-import styles from "./About.module.css";
 
 const About = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const response = await fetch("/api/socials"); // Fetch from the API endpoint
-        const data = await response.json(); // Parse the response as JSON
+        const response = await fetch("/api/socials");
+        const data = await response.json();
         setItems(data);
       } catch (error) {
         console.error("Error fetching data:", error);

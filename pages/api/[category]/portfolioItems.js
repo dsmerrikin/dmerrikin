@@ -25,7 +25,6 @@ export default function handler(req, res) {
 
   const selectedCategory = req.query?.category?.toString();
   const filteredItems = filter(items, (item) => {
-    // Check if the item's categories array includes the selected category or if the selected category is '*'
     return (
       item.categories.includes(selectedCategory) || selectedCategory === "*"
     );
