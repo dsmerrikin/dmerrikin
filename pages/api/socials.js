@@ -13,12 +13,6 @@ export default function handler(req, res) {
       url: `https://www.instagram.com/cascading_sweet_and_savory/`,
     },
     {
-      id: 3,
-      title: "Twitter",
-      icon: `fa-square-twitter`,
-      url: `https://twitter.com/dmerrikincom`,
-    },
-    {
       id: 4,
       title: "LinkedIn",
       icon: `fa-linkedin`,
