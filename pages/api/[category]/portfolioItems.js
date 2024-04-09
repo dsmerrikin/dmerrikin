@@ -22,6 +22,15 @@ export default function handler(req, res) {
     },
     {
       id: 3,
+      title: "East Coast Content",
+      description:
+        "East Coast Content |\nDigital natives providing commercial and event videography",
+      imageSrc: "/images/portfolio/eccfavicon.png",
+      url: "https://eastcoastcontent.com/",
+      categories: ["wordpress"],
+    },
+    {
+      id: 4,
       title: "MGB Scholarship",
       description:
         "MGB Scholarship Foundation |\nProviding Scholarships Through Community Support",
@@ -30,7 +39,7 @@ export default function handler(req, res) {
       categories: ["wordpress"],
     },
     {
-      id: 4,
+      id: 5,
       title: "JMcIntyre Photo",
       description: "JMcIntyre Photo |\nJim McIntyre Photography",
       imageSrc: "/images/portfolio/jmcintyrephoto.jpeg",

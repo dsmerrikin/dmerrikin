@@ -29,7 +29,7 @@ const PortfolioItem: FC<PortfolioItemInterface> = ({
               src={imageSrc}
               alt='image'
               layout='fill'
-              objectFit='cover'
+              objectFit='contain'
             />
           </div>
           <div className='absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition'>
