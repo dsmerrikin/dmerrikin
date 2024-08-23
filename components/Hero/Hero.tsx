@@ -2,6 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
+    <>
     <section
       id='home'
       className='relative z-10 pt-[150px] lg:pt-[100px] 2xl:flex items-center 2xl:h-[700px]'
@@ -94,6 +95,8 @@ const Hero = () => {
         </span>
       </div>
     </section>
+    </>
+    
   );
 };
 
