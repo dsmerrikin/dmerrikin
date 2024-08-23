@@ -84,10 +84,7 @@ function Header() {
         <div className='container'>
           <div className='flex mx-[-16px] items-center justify-between relative'>
             <div className='px-4 w-60 max-w-full'>
-              <a
-                href='index.html'
-                className='header-logo w-full block py-6 lg:py-8'
-              >
+              <Link href='/' className='header-logo w-full block py-6 lg:py-8'>
                 <Image
                   src='/images/logo/logo.svg'
                   alt='logo'
@@ -95,7 +92,7 @@ function Header() {
                   height={175}
                   width={200}
                 />
-              </a>
+              </Link>
             </div>
             <div className='flex px-4 justify-between items-center w-full'>
               <div>
