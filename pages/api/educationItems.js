@@ -2,8 +2,8 @@ export default function handler(req, res) {
   res.status(200).json([
     {
       id: 1,
-      company: "Easton Consulting Technologies",
-      title: "Technical Team Lead & Senior Software Engineer",
+      company: "GraVoc Associates",
+      title: "Senior Full-Stack Developer & Technical Team Lead",
       date: "July 2024 - October 2024",
       summary: `As a Senior Full-Stack Developer and Technical Team Lead, I managed two development teams consisting of MERN/GRAND and LAMP 
       engineers, overseeing eight high-revenue client projects. I led the seamless migration of a MERN application to a GRAND stack, 
