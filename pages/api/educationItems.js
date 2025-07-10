@@ -2,6 +2,17 @@ export default function handler(req, res) {
   res.status(200).json([
     {
       id: 1,
+      company: "Eliassen Group contracting for FM",
+      title: "Senior Software Engineer - Front-End Focused",
+      date: "December 2024 - Present",
+      summary: `At FM, my focus was on front-end development with React and TypeScript, building fast, accessible features tailored to fintech users. 
+      Working closely with designers, product managers, and backend engineers, the team delivered reliable, user-friendly functionality that met complex industry needs. 
+      I often stepped in to fill gaps, pick up overlooked tasks, and help unblock teammates to keep momentum going. 
+      Beyond code, I contributed to a positive team culture by encouraging shared wins and highlighting others’ strengths. 
+      My day-to-day included writing scalable GraphQL hooks, maintaining solid Jest test coverage, and reviewing code with an eye for quality and maintainability.`,
+    },
+    {
+      id: 2,
       company: "GraVoc Associates",
       title: "Senior Full-Stack Developer & Technical Team Lead",
       date: "July 2024 - October 2024",
@@ -13,7 +24,7 @@ export default function handler(req, res) {
       enhancing their skills to become versatile professionals capable of taking on greater responsibilities.`,
     },
     {
-      id: 2,
+      id: 3,
       company: "Easton Consulting Technologies",
       title: "Technical Team Lead & Senior Software Engineer",
       date: "September 2023 - April 2024",
@@ -25,7 +36,7 @@ export default function handler(req, res) {
       Additionally, I have written custom WordPress plugins and served as the go-to person for all technology-related requests from the VP of Technology and the CEO.`,
     },
     {
-      id: 3,
+      id: 4,
       company: "Built Technologies",
       title: "Senior Software Engineer",
       date: "January 2023 - July 2023",
@@ -35,7 +46,7 @@ export default function handler(req, res) {
             I ensure compliance with WCAG AA accessibility standards and contribute to continuous deployment and AC changes through a Go CI/CD pipeline.`,
     },
     {
-      id: 4,
+      id: 5,
       company: "DEPT",
       title: "Software Engineer",
       date: "March 2021 - October 2022",
@@ -45,7 +56,7 @@ export default function handler(req, res) {
             I ensured compliance with WCAG AA accessibility standards and contributed to continuous deployment and iterative design changes through a CI/CD pipeline.`,
     },
     {
-      id: 5,
+      id: 6,
       company: "Fresenius Medical Care",
       title: "Senior UI/UX Developer",
       date: "December 2015 - March 2021",
@@ -54,7 +65,7 @@ export default function handler(req, res) {
         Additionally, I resolved security vulnerabilities identified through penetration testing, ensuring compliance with WCAG AA accessibility standards. My collaborative skills were put to use in Agile Scrum teams, contributing to efficient teamwork.`,
     },
     {
-      id: 6,
+      id: 7,
       company: "Fidelity Investments",
       title: "Senior UI/UX Developer",
       date: "July 2014 - November 2015",
@@ -62,7 +73,7 @@ export default function handler(req, res) {
         Compliance with WCAG AA accessibility standards was a priority, and I fostered camaraderie and collaboration within teams to enhance productivity. Additionally, I developed a full-stack MEAN solution for an Executive Vice President, streamlining the management of business data.`,
     },
     {
-      id: 7,
+      id: 8,
       company: "Medullan, Inc.",
       title: "Lead UI/UX Developer",
       date: "June 2013 - May 2014",
@@ -71,7 +82,7 @@ export default function handler(req, res) {
         Additionally, I specialized in creating custom WordPress solutions that were meticulously tailored to cater to the specific requirements of clients.`,
     },
     {
-      id: 8,
+      id: 9,
       company: "Southern New Hampshire University",
       title: "Bachelors of Computer Science",
       date: "2020",
