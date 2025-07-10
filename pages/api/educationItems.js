@@ -5,11 +5,11 @@ export default function handler(req, res) {
       company: "Eliassen Group contracting for FM",
       title: "Senior Software Engineer - Front-End Focused",
       date: "December 2024 - Present",
-      summary: `At FM, my focus was on front-end development with React and TypeScript, building fast, accessible features tailored to fintech users. 
-      Working closely with designers, product managers, and backend engineers, the team delivered reliable, user-friendly functionality that met complex industry needs. 
-      I often stepped in to fill gaps, pick up overlooked tasks, and help unblock teammates to keep momentum going. 
-      Beyond code, I contributed to a positive team culture by encouraging shared wins and highlighting others’ strengths. 
-      My day-to-day included writing scalable GraphQL hooks, maintaining solid Jest test coverage, and reviewing code with an eye for quality and maintainability.`,
+      summary: `At FM, my focus is on front-end development with React and TypeScript, building fast, accessible features tailored to fintech users. 
+      Working closely with designers, product managers, and backend engineers, I deliver reliable, user-friendly functionality that met complex industry needs. 
+      I often step in to fill gaps, pick up unwanted tasks, and help unblock teammates to keep momentum going. 
+      Beyond code, I contribute to a positive team culture by encouraging shared wins and highlighting others’ strengths. 
+      My day-to-day includes writing scalable GraphQL hooks, maintaining solid Jest test coverage, and reviewing code with an eye for quality and maintainability.`,
     },
     {
       id: 2,
