@@ -5,11 +5,10 @@ export default function handler(req, res) {
       company: "Eliassen Group contracting for FM",
       title: "Senior Software Engineer - Front-End Focused",
       date: "December 2024 - Present",
-      summary: `At FM, my focus is on front-end development with React and TypeScript, building fast, accessible features tailored to fintech users. 
-      Working closely with designers, product managers, and backend engineers, I deliver reliable, user-friendly functionality that met complex industry needs. 
-      I often step in to fill gaps, pick up unwanted tasks, and help unblock teammates to keep momentum going. 
-      Beyond code, I contribute to a positive team culture by encouraging shared wins and highlighting others’ strengths. 
-      My day-to-day includes writing scalable GraphQL hooks, maintaining solid Jest test coverage, and reviewing code with an eye for quality and maintainability.`,
+      summary: `I'm currently leading front-end development on FM Global's fintech platform, working in React and TypeScript with a focus on performance, accessibility, and building seamless experiences for financial users.
+A big part of my role has been taking ownership of the Azure DevOps side, configurations, pipelines, and release management, while also driving the rollout of a micro front-end architecture in the NX Framework. That meant establishing reusable component patterns that let different teams ship independently without stepping on each other.
+On the data side, I built and maintain GraphQL hooks that power real-time transactional interfaces, and I keep the team's test coverage above 80% with Jest. I also dug into a performance issue with our ArcGIS/ESRI mapping setup that was slowing the front end down, restructured how the component loaded using useEffect, and got the landing page to a fast static load while letting the interactive map load from cache on subsequent pages.
+Day to day I'm doing a lot of code review and mentorship too, working to keep the codebase clean and the team aligned as we scale.`,
     },
     {
       id: 2,
