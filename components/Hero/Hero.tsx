@@ -60,35 +60,15 @@ const Hero = () => {
         </div>
 
         <div>
-          <span className="absolute right-0 bottom-0 -z-1">
-            <svg
-              width="491"
-              height="350"
-              viewBox="0 0 491 490"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="xs:h-[300px] sm:h-9 md:h-[425px] lg:h-[490px]"
-            >
-              <circle
-                cx="356.5"
-                cy="356.5"
-                r="356.5"
-                fill="url(#paint0_linear_6:37)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_6:37"
-                  x1="356.5"
-                  y1="0"
-                  x2="356.5"
-                  y2="713"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#1E3BB3" />
-                </linearGradient>
-              </defs>
-            </svg>
+          <span className="absolute right-0 bottom-0 -z-1 2xl:top-10 xl:top-10 lg:top-10 md:bottom-0 sm:bottom-0 sm:w-[80%] xs:bottom-0 xs:w-[60%] ">
+            <Image
+                  src="/images/hero/dmerrikin-hero-bg.png"
+                  alt="image"
+                  className="max-w-full ml-auto"
+                  width={500}
+                  height={500}
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 480px, 600px"
+                />
           </span>
         </div>
       </section>
